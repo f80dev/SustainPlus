@@ -1,0 +1,15 @@
+<div *ngIf="data.landing_page" style="width:100vw;height:100vh;text-align: center;">
+	<div [innerHTML]="data.landing_page | safe" style="width: 100%;"></div>
+	<br>
+	<button mat-raised-button (click)="data.landing_page=''">Suivant</button>
+</div>
+
+
+	<app-item title=""
+	          *ngIf="data.landing_page==''"
+	          [content]="data.content"
+	          [expanded]="true"
+	          color="transparent"></app-item>
+
+
+

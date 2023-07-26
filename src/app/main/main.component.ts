@@ -1,6 +1,10 @@
 import {Component, OnInit} from '@angular/core';
 import * as yaml from 'js-yaml';
 import { HttpClient } from '@angular/common/http';
+import {UserService} from "../user.service";
+import {Router} from "@angular/router";
+import {MatSnackBar} from "@angular/material/snack-bar";
+import {showMessage} from "../../tools";
 
 
 @Component({
@@ -8,27 +12,23 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css']
 })
-export class MainComponent implements OnInit {
+export class MainComponent  {
+  password: any = "";
 
-  data:any
-  contents: any[]=[];
-
-  constructor(private http: HttpClient) {
+  constructor(public user:UserService,
+              public toast:MatSnackBar,
+              public router:Router) {
   }
 
-  loadYamlFile() {
-    this.http.get('assets/content.yaml', { responseType: 'text' }).subscribe((data: string) => {
-          this.data = yaml.load(data);
-          this.contents=this.data.content;
-        });
+  open_clouds() {
+    this.router.navigate(["clouds"])
   }
 
-
-
-  ngOnInit(): void {
-        this.loadYamlFile()
+  open_appli() {
+    if(this.password==this.user.authentification.password){
+      this.user.landing_page=''
+    } else {
+      showMessage(this,"Mot de passe incorrect")
+    }
   }
-
-
-
 }

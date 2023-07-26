@@ -1,15 +1,39 @@
-<div *ngIf="data.landing_page" style="width:100vw;height:100vh;text-align: center;">
-	<div [innerHTML]="data.landing_page | safe" style="width: 100%;"></div>
-	<br>
-	<button mat-raised-button (click)="data.landing_page=''">Suivant</button>
+<div style="color:white;text-align: center;">
+  <div *ngIf="user.landing_page" style="width:100vw;height:100vh;text-align: center;">
+    <br>
+    <div [innerHTML]="user.landing_page | safe"
+         style="width: 90%;max-width:500px;display: inline-block;margin-left: 2%;"></div>
+    <br>
+
+    <app-input label="Code d'accès" [value]="password" value_type="text"
+               *ngIf="user.authentification.password.length>0"
+               (validate)="open_appli()"
+               width="200px" style="display: inline-block;margin-top:50px;"
+               (valueChange)="password=$event"></app-input>
+
+    <br><br>
+    <button mat-raised-button (click)="open_appli()">Suivant</button>
+  </div>
+
+
+  <br>
+  <img src='./assets/logo-hollister.webp' style='width:200px'><br>
+  <app-item title="<span style='font-size:large;'>Bienvenue sur l'application Sustain Plus</span>"
+            *ngIf="user.landing_page==''"
+            [content]="user.content"
+            [expanded]="true"
+            color="transparent"></app-item>
+
+
+  <br>
+
+  <button mat-raised-button
+          *ngIf="user.landing_page==''"
+          (click)="open_clouds()">
+    Short version
+  </button>
+
+
 </div>
-
-
-	<app-item title=""
-	          *ngIf="data.landing_page==''"
-	          [content]="data.content"
-	          [expanded]="true"
-	          color="transparent"></app-item>
-
 
 

@@ -5,8 +5,7 @@ redacteur: "Cécile Da Cunha"
 authentification:
   active: false
   message: "Merci de bien vouloir vous identifier"
-  password: "az"
-  password_old: Holl20!23
+  password: Holl20!23
   error: "
         Mot de passe incorrect.<br>
         Merci de bien vouloir réessayer
@@ -21,8 +20,7 @@ authentification:
         "
 
 landing_page: "
-        <img src='./assets/logo-hollister.webp' style='width:200px'><br><br>
-
+        <img src='./assets/logo_hollister.png'><br>
         <h3>Bienvenue sur l'application Sustain Plus</h3>
         <span style='font-style:italic;'>« L’histoire de notre Groupe - et a
         fortiori son avenir - sont autant de témoignages
@@ -48,7 +46,7 @@ content:
             <br>
             <img src='https://em-content.zobj.net/thumbs/120/apple/354/monkey-face_1f435.png'>
             Sur tous nos sites, incitations à une mobilité plus douce
-            <ul style='text-align:left'>
+            <ul>
             <li>verdissement de nos flottes automobiles</li>
             <li>installation de bornes de recharge pour véhicules électriques</li>
             <li>installation de parkings à vélos…</li>
@@ -58,30 +56,57 @@ content:
 
       - title: "Optimisation énergétique et réduction de notre dépendance aux énergies carbonées"
         color: "#669999"
-        content: "ceci est un texte de remplissage"
+
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
 
       - title: "Approvisionnements responsables, gestion éclairée et économie circulaire"
         color: "#669999"
-        content: "ceci est un texte de remplissage"
+
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
 
       - title: "Eco-conception de nos produits et emballages"
         color: "#669999"
-        content: "ceci est un texte de remplissage"
+
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
 
       - title: "Préservation et restauration de la biodiversité"
         color: "#669999"
-        content: "ceci est un texte de remplissage"
 
-      - title: "Solidarité et soutien dans les champs de l'éducation, de la santé, du sport, de la culture ou de l'aide aux réfugiés"
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
+
+      - title: "Solidarité et soutien dans les champs de l'éducation, de la santé, du sport, de la culture ou encore de l'aide aux réfugiés"
         color: "#cc6699"
-        content: "ceci est un texte de remplissage"
 
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
 
-      - title: "<span style='color:black'>Retrouvez nos certifications et distinctions</span>"
-        top: "34px"
+      - title: "Retrouvez nos certifications et distinctions"
         color: "#cccccc"
-        icon: "new_releases"
-        content: "ceci est un texte de remplissage"
+        icon: "https://thenounproject.com/icon/award-5439695/"
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
 
 
   - title: "Intégrité"
@@ -90,26 +115,45 @@ content:
     content:
       - title: "Réduction de nos émissions de gaz à effet de serre"
         color: "#669999"
-        content: "ceci est un texte de remplissage"
 
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
       - title: "Optimisation énergétique et réduction de notre dépendance aux énergies carbonées"
         color: "#669999"
-        content: "ceci est un texte de remplissage"
 
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
       - title: "Promotion de la diversité, de l'équité et de l'inclusion, et lutte contre toute forme de discrimination"
         color: "#666699"
-        content: "ceci est un texte de remplissage"
 
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
       - title: "Conduite des affaires éthique et transparente"
         color: "#666699"
-        content: "ceci est un texte de remplissage"
 
-      - title: "<span style='color:black'>Retrouvez nos certifications et distinctions</span>"
-        top: "34px"
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
+      - title: "Retrouvez nos certifications et distinctions"
         color: "#cccccc"
         icon: "new_releases"
-        content: "ceci est un texte de remplissage"
 
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
 
   - title: "Dignité de la personne"
     texttransform: "uppercase"
@@ -117,25 +161,45 @@ content:
     content:
       - title: "Promotion de la diversité, de l'équité et de l'inclusion, et lutte contre toute forme de discrimination"
         color: "#666699"
-        content: "ceci est un texte de remplissage"
 
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
       - title: "Pour un environnement de travail sans danger, préservant la santé et la sécurité de chacun.e"
         color: "#666699"
-        content: "ceci est un texte de remplissage"
 
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
       - title: "Rendre accessible au plus grand nombre des produits fiables, simples d'utilisation et de manipulation, tout en préservant l'épiderme"
         color: "#cc6699"
-        content: "ceci est un texte de remplissage"
 
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
       - title: "Mieux comprendre le vécu du patient, ses préoccupations et les conditions d'une qualité de vie optimale pour ses proches aidants et lui/elle"
         color: "#cc6699"
-        content: "ceci est un texte de remplissage"
 
-      - title: "<span style='color:black'>Retrouvez nos certifications et distinctions</span>"
-        top: "34px"
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
+      - title: "Retrouvez nos certifications et distinctions"
         color: "#cccccc"
         icon: "new_releases"
-        content: "ceci est un texte de remplissage"
+
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
 
   - title: "Service"
     texttransform: "uppercase"
@@ -143,65 +207,82 @@ content:
     content:
       - title: "Rendre accessible au plus grand nombre des produits fiables, simples d'utilisation et de manipulation, tout en préservant l'épiderme"
         color: "#cc6699"
-        content: "ceci est un texte de remplissage"
 
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
       - title: "Mieux comprendre le vécu du patient, ses préoccupations et les conditions d'une qualité de vie optimale pour ses proches aidants et lui/elle"
         color: "#cc6699"
-        content: "ceci est un texte de remplissage"
 
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
       - title: "Solidarité et soutien dans les champs de l'éducation, de la santé, du sport, de la culture ou encore de l'aide aux réfugiés"
         color: "#cc6699"
-        content: "ceci est un texte de remplissage"
+
+        content: "
+            jkfjsdklfds lj klfjds klfjdslk
+            <img src=''>
+            lklg dfk gldlmg
+            "
 
 
-  - title: "Nos défis pour le futur"
-    top: "34px"
+  - title: "<span style='color:black'>Nos défis pour le futur</span>"
+    color: "#b2b2b2"
     icon: "slideshow"
     content:
-      - title: "Nos défis pour un futur viable"
-        color: "#669999"
+      - title: "<span style='color:black'>Nos défis pour un futur viable</span>"
+        color: "#cccccc"
         icon: "add_photo_alternate"
         content: "
-            <ul style='text-align:left'>
+            <ul>
             <li>Nous souhaitons réduire nos émissions de gaz à effet de serre et notre dépendance aux énergies carbonées, en incluant le scope 3.</li>
             <li>Nous souhaitons limiter nos impacts environnementaux en optimisant l'intensité carbone et énergétique de nos activités, en encourageant les alternatives aux véhicules thermiques et aux systèmes d'éclairage/chauffage/refroidissement traditionnels.</li>
             <li>Nous souhaitons nous réinventer pour être un acteur du changement et améliorer l'expérience patient, tout en relevant le défi technologique de la réduction de nos empreintes CO2, hydrique et sur le vivant.</li>
             </ul>
             "
 
-      - title: "Nos défis pour un futur durable"
-        color: "#cc6699"
+      - title: "<span style='color:black'>Nos défis pour un futur durable</span>"
+        color: "#cccccc"
         icon: "diversity_1"
         content: "
-            <ul style='text-align:left'>
+            <ul>
             <li>Être une entreprise contributive, cela ne se décrète pas. Cela s’incarne. C’est pourquoi nous déployons une énergie incroyable pour soutenir l’innovation et améliorer toujours plus la qualité de vie des patients.</li>
             <li>Cela nécessite également de maintenir des liens forts avec ses communautés, tout en en développant de nouveaux - avec des structures plus jeunes, plus petites ou en adaptant les dispositifs proposés aux collaborateurs.</li>
             </ul>
             "
 
-      - title: "Nos défis pour un futur désirable"
-        color: "#666699"
+      - title: "<span style='color:black'>Nos défis pour un futur désirable</span>"
+        color: "#cccccc"
         icon: "diversity_2"
         content: "
-            <ul style='text-align:left'>
+            <ul>
             <li>En accord avec notre éthique, nous nous engageons à poursuivre nos efforts pour préserver notre capital humain.</li>
             <li>Tout en développant, chaque année davantage, au sein du Groupe, la représentativité et l’évolution professionnelle des femmes, des plus jeunes, des personnes en situation de handicap ou éloignées de l’emploi, ainsi que de tout représentant d’une minorité.</li>
             </ul>
             "
 
   - title: "Consultez notre lexique RSE"
+    color: "#cccccc"
     icon: "help"
+
     content: "
-        <img src='./assets/icon_pdf.png' style='width:30px'>
+        doc pdf
         "
 
   - title: "Retrouvez l'intégralité du 1er Rapport Développement durable du Groupe Hollister"
+    color: "#cccccc"
     icon: "menu_book"
+
     content: "
-        <img src='./assets/icon_pdf.png' style='width:30px'>
+        doc pdf
         "
 
 clouds:
-  Terme 1: "ceci est un texte de remplissage"
-  Terme 2: "ceci est un texte de remplissage"
-  Terme 3: "ceci est un texte de remplissage"
+  Terme 1: "jkljfklsdjfklds kljfsdkl jfsdlfjlsdj fklsd jfklsd"
+  Terme 2: "jkfldsjklfjdsklfjksdjsd n,kljfskjfklsd klj fkdsj fkldsj klfj sdklf"
+  Terme 3: "kfjdsklfjsk kldj fklj sfkldjf klsdj fklsdj fklsdj fklsdjflkds"

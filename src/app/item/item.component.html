@@ -1,18 +1,21 @@
-<mat-expansion-panel [expanded]="expanded" style="margin-top: 8px;" [style.background-color]="color" (expandedChange)="record_expanded()">
-	<mat-expansion-panel-header [style.text-transform]="texttransform">
-		<div style="display: flex;flex-direction: row;align-items: center;">
-			<img *ngIf="icon && icon.length>0" [src]="icon" style="width: 40px;height:40px;margin-right: 15px;">
+<mat-expansion-panel [expanded]="expanded"  [style.margin-top]="top"
+                     [style.background-color]="color" (expandedChange)="record_expanded()">
+	<mat-expansion-panel-header [style.text-transform]="texttransform" style="text-align: left;font-style: normal;">
+		<div style="display: flex;flex-direction: row;align-items: center;line-height: 90%;">
+			<img *ngIf="icon && icon.length>0 && icon.startsWith('http')" [src]="icon" style="width: 40px;height:40px;margin-right: 15px;">
+      <mat-icon *ngIf="icon && !icon.startsWith('http')" style="color:white;margin-right: 15px;">{{icon}}</mat-icon>
 			<div [innerHTML]="title | safe"></div>
 		</div>
 
 	</mat-expansion-panel-header>
 	<div *ngIf="content_type=='html'" [innerHTML]="content | safe" >
 	</div>
-	<div *ngIf="content_type=='object' && content">
+	<div *ngIf="content_type=='object' && content" style="text-align: left;">
 		<app-item *ngFor="let item of content"
 		          [title]="item!.title"
 		          [content]="item!.content"
 		          [color]="item!.color"
+              [top]="item!.top || '8px'"
 		          [icon]="item!.icon"
 		          [expanded]="item!.expanded"
 		          [texttransform]="item!.texttransform"></app-item>

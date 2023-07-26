@@ -9,6 +9,7 @@ export class ItemComponent implements OnChanges,AfterViewInit {
     content_type: string="html"
     @Input() title:string=""
     @Input() content:any
+    @Input() top:string="8px";
     @Input() color="gray"
     @Input() icon=""
     @Input() texttransform="none"

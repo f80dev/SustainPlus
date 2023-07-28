@@ -42,12 +42,22 @@ content:
         color: "#669999"
         content: "
             <p style='color:white'>
-            <img src='https://em-content.zobj.net/thumbs/120/apple/354/monkey-face_1f435.png'>
-            27,419 milliards de tonnes équivalent CO2
-            (Bilan carbone 2020 sur les scopes 1 et 2, intégrant nos dispositifs de compensation)
+            <table>
+            <tr>
+            <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/barefoot/default/48px.svg'></td>
+            <td>
+            27,419 milliards de tonnes équivalent CO2<br>
+            (Bilan carbone 2020 portant sur les scopes 1 et 2, intégrant nos dispositifs de compensation)
+            </td>
+            </tr>
+            <tr>
+            </tr>
+            </table>
+
+
             <br>
-            <img src='https://em-content.zobj.net/thumbs/120/apple/354/monkey-face_1f435.png'>
-            Sur tous nos sites, incitations à une mobilité plus douce
+            <img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/ev_station/default/48px.svg'>
+            Sur tous nos sites, incitations à une mobilité plus douce :
             <ul style='text-align:left'>
             <li>verdissement de nos flottes automobiles</li>
             <li>installation de bornes de recharge pour véhicules électriques</li>
@@ -58,30 +68,122 @@ content:
 
       - title: "Optimisation énergétique et réduction de notre dépendance aux énergies carbonées"
         color: "#669999"
-        content: "ceci est un texte de remplissage"
+        content: "
+            <p style='color:white'>
+            icon: 'electric_bolt'
+            3,8 % de gain en intensité énergétique pour nos sites industriels, sur la période 2019 - 2021
+            <br>
+            icon: 'solar_power'
+            <ul style='text-align:left'>
+            <li>Économies d’énergie : récupération de chaleur fatale ou résiduelle, 1ers plans de sobriété énergétique, systèmes de refroidissement naturel de l’air</li>
+            <li>Monitoring énergétique : suivi des performances et audits</li>
+            <li>Développement des énergies vertes</li>
+            <li>Développement de l’autoproduction d’énergie renouvelable</li>
+            </ul>
+            </p>
+        "
 
       - title: "Approvisionnements responsables, gestion éclairée et économie circulaire"
         color: "#669999"
-        content: "ceci est un texte de remplissage"
+        content: "
+            <p style='color:white'>
+            <table>
+              <tr>
+                <td>icon: 'electric_bolt'</td>
+                <td> > 1 000 tonnes équivalent CO2 économisées grâce aux achats d’énergie renouvelable, entre 2019 et 2021</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
 
-      - title: "Eco-conception de nos produits et emballages"
+
+
+            <br>
+            icon: 'electric_bolt'
+            > 99 % des déchets dangereux détournés de la mise en rebut, en 2021
+            <br>
+            icon: 'electric_bolt'
+            > 71 % des déchets non dangereux détournés de la mise en décharge, en 2021
+            <br>
+            icon: 'solar_power'
+            <ul style='text-align:left'>
+            <li>Création d’un réseau de 'sentinelles déchets' sur certains sites</li>
+            <li>Zéro mise en décharge des déchets de production (valorisation énergétique ou matière)</li>
+            <li>Évitement de la mise au rebus de 4 millions échantillons test de cathéters, post-contrôle Qualité</li>
+            </ul>
+            </p>
+        "
+
+      - title: "Éco-conception de nos produits et emballages"
         color: "#669999"
-        content: "ceci est un texte de remplissage"
+        content: "
+            <p style='color:white'>
+            icon: 'electric_bolt'
+            11 % de réduction des consommations d’eau sur la période 2019 - 2021
+            <br>
+            <ul style='text-align:left'>
+            <li>Optimisation de nos procédés industriels</li>
+            <br>
+            icon: 'solar_power'
+            <li>Substitution des substances préoccupantes dans nos produits</li>
+            <li>Études de faisabilité sur des matériaux biodégradables ou recyclables</li>
+            <li>Réalisation d’analyses de cycle de vie sur les principales gammes d'Hollister Inc.</li>
+            </ul>
+            </p>
+        "
 
       - title: "Préservation et restauration de la biodiversité"
         color: "#669999"
-        content: "ceci est un texte de remplissage"
+        content: "
+            <p style='color:white'>
+            Préservation du vivant et des milieux naturels de multiples façons,
+            depuis nos approvisionnements jusqu’aux systèmes de management de chacun de nos sites
+            <br>
+            <ul style='text-align:left'>
+            icon: 'solar_power'
+            <li>Aménagement de nos espaces verts (ré)intégrant des essences et espèces endémiques (i.e. spécifiques à la zone géographique)</li>
+            icon: 'solar_power'
+            <li>Installation de ruches sur nos sites et fabrication de nichoirs à oiseaux</li>
+            </ul>
+            </p>
+        "
 
       - title: "Solidarité et soutien dans les champs de l'éducation, de la santé, du sport, de la culture ou de l'aide aux réfugiés"
         color: "#cc6699"
-        content: "ceci est un texte de remplissage"
+        content: "
+            <p style='color:white'>
+            icon: 'solar_power'
+            > 36 M $ US de dons à des organisations locales à but non lucratif,
+            sur la période 2019-2021
+            <br>
+            icon: 'solar_power'
+            > 300 000 M $ US
+            de contributions à l’athlétisme handisport aux USA, entre 2019 et 2021
+            <br>
+            <ul style='text-align:left'>
+            <li>Plan de continuité robuste et solidarité en temps de crise</li>
+            <li>Dons d’équipements médicaux essentiels dans des régions du monde sous-dotées</li>
+            <li>Collectes spontanées organisées par nos collaborateurs</li>
+            </ul>
+            </p>
+        "
 
-
-      - title: "<span style='color:black'>Retrouvez nos certifications et distinctions</span>"
+      - title: "Retrouvez nos certifications et distinctions"
         top: "34px"
-        color: "#cccccc"
         icon: "new_releases"
-        content: "ceci est un texte de remplissage"
+        content: "
+        <img src='./assets/icon_pdf.png' style='width:30px'>
+        "
 
 
   - title: "Intégrité"
@@ -104,11 +206,12 @@ content:
         color: "#666699"
         content: "ceci est un texte de remplissage"
 
-      - title: "<span style='color:black'>Retrouvez nos certifications et distinctions</span>"
+      - title: "Retrouvez nos certifications et distinctions"
         top: "34px"
-        color: "#cccccc"
         icon: "new_releases"
-        content: "ceci est un texte de remplissage"
+        content: "
+        <img src='./assets/icon_pdf.png' style='width:30px'>
+        "
 
 
   - title: "Dignité de la personne"
@@ -131,11 +234,12 @@ content:
         color: "#cc6699"
         content: "ceci est un texte de remplissage"
 
-      - title: "<span style='color:black'>Retrouvez nos certifications et distinctions</span>"
+      - title: "Retrouvez nos certifications et distinctions"
         top: "34px"
-        color: "#cccccc"
         icon: "new_releases"
-        content: "ceci est un texte de remplissage"
+        content: "
+        <img src='./assets/icon_pdf.png' style='width:30px'>
+        "
 
   - title: "Service"
     texttransform: "uppercase"
@@ -158,8 +262,7 @@ content:
     top: "34px"
     icon: "slideshow"
     content:
-      - title: "Nos défis pour un futur viable"
-        color: "#669999"
+      - title: "<span style='color:#669999'>Nos défis pour un futur viable</span>"
         icon: "add_photo_alternate"
         content: "
             <ul style='text-align:left'>
@@ -169,8 +272,7 @@ content:
             </ul>
             "
 
-      - title: "Nos défis pour un futur durable"
-        color: "#cc6699"
+      - title: "<span style='color:#ffcc99'>Nos défis pour un futur durable</span>"
         icon: "diversity_1"
         content: "
             <ul style='text-align:left'>
@@ -179,8 +281,7 @@ content:
             </ul>
             "
 
-      - title: "Nos défis pour un futur désirable"
-        color: "#666699"
+      - title: "<span style='color:#99ccff'>Nos défis pour un futur désirable</span>"
         icon: "diversity_2"
         content: "
             <ul style='text-align:left'>

@@ -19,10 +19,16 @@ import {MatListModule} from "@angular/material/list";
 import {MatInputModule} from "@angular/material/input";
 import {MatSelectModule} from "@angular/material/select";
 import {MatSnackBarModule} from "@angular/material/snack-bar";
+import {AboutComponent} from "./about/about.component";
+import {StyleManagerService} from "./style-manager.service";
+import {PromptComponent} from "./prompt/prompt.component";
+import {MAT_DIALOG_DATA, MatDialogModule} from "@angular/material/dialog";
+import {FilterPipe} from "./filter.pipe";
 
 const routes: Routes = [
   { path: 'main', component: MainComponent},
   { path: 'clouds', component: CloudComponent},
+  { path: 'about', component: AboutComponent},
   { path: '', component: MainComponent},
 ]
 
@@ -31,14 +37,17 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     MainComponent,
+    AboutComponent,
+    PromptComponent,
     InputComponent,
     ItemComponent,
-    SafePipe,
+    SafePipe,FilterPipe,
     CloudComponent
   ],
   imports: [
     ReactiveFormsModule,
     FormsModule,
+    MatDialogModule,
     MatSnackBarModule,
     BrowserModule,
     HttpClientModule,
@@ -57,10 +66,12 @@ const routes: Routes = [
     MatSliderModule,
     MatListModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+
   ],
   providers: [
-    SafePipe
+    SafePipe,StyleManagerService,FilterPipe,
+    {provide: MAT_DIALOG_DATA, useValue: {hasBackdrop: false}},
   ],
   bootstrap: [AppComponent]
 })

@@ -10,7 +10,7 @@ export class UserService {
   public clouds:any={}
   landing_page: string=""
   authentification: any={}
-
+  params:any;
   content_change = new Subject<any>();
 
 

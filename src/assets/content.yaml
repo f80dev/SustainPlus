@@ -43,17 +43,15 @@ content:
         content: "
             <p style='color:white'>
             <table>
-            <tr>
-            <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/barefoot/default/48px.svg'></td>
-            <td>
-            27,419 milliards de tonnes équivalent CO2<br>
-            (Bilan carbone 2020 portant sur les scopes 1 et 2, intégrant nos dispositifs de compensation)
-            </td>
-            </tr>
-            <tr>
-            </tr>
+              <tr>
+                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/barefoot/default/48px.svg'></td>
+                <td>
+                27,419 milliards de tonnes équivalent CO2
+                <br>
+                (Bilan carbone 2020 portant sur les scopes 1 et 2, intégrant nos dispositifs de compensation)
+                </td>
+              </tr>
             </table>
-
 
             <br>
             <img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/ev_station/default/48px.svg'>
@@ -70,16 +68,27 @@ content:
         color: "#669999"
         content: "
             <p style='color:white'>
-            icon: 'electric_bolt'
-            3,8 % de gain en intensité énergétique pour nos sites industriels, sur la période 2019 - 2021
+            <table>
+              <tr>
+                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/electric_bolt/default/48px.svg'></td>
+                <td>3,8 % de gain en intensité énergétique pour nos sites industriels, sur la période 2019 - 2021</td>
+              </tr>
+            </table>
+            
             <br>
-            icon: 'solar_power'
-            <ul style='text-align:left'>
-            <li>Économies d’énergie : récupération de chaleur fatale ou résiduelle, 1ers plans de sobriété énergétique, systèmes de refroidissement naturel de l’air</li>
-            <li>Monitoring énergétique : suivi des performances et audits</li>
-            <li>Développement des énergies vertes</li>
-            <li>Développement de l’autoproduction d’énergie renouvelable</li>
-            </ul>
+            <table>
+              <tr>
+                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/solar_power/default/48px.svg'></td>
+                <td>
+                  <ul style='text-align:left'>
+                  <li>Économies d’énergie : récupération de chaleur fatale ou résiduelle, 1ers plans de sobriété énergétique, systèmes de refroidissement naturel de l’air</li>
+                  <li>Monitoring énergétique : suivi des performances et audits</li>
+                  <li>Développement des énergies vertes</li>
+                  <li>Développement de l’autoproduction d’énergie renouvelable</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
             </p>
         "
 
@@ -89,38 +98,31 @@ content:
             <p style='color:white'>
             <table>
               <tr>
-                <td>icon: 'electric_bolt'</td>
-                <td> > 1 000 tonnes équivalent CO2 économisées grâce aux achats d’énergie renouvelable, entre 2019 et 2021</td>
+                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/energy_savings_leaf/default/48px.svg'></td>
+                <td>> 1 000 tonnes équivalent CO2 économisées grâce aux achats d’énergie renouvelable, entre 2019 et 2021</td>
               </tr>
+              <br>
+              <tr>
+                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/delete_forever/default/48px.svg'></td>
+                <td>> 99 % des déchets dangereux détournés de la mise en rebut, en 2021</td>
+              </tr>
+              <br>
+              <tr>
+                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/delete/default/48px.svg'></td>
+                <td>> 71 % des déchets non dangereux détournés de la mise en décharge, en 2021</td>
+              </tr>
+              <br>
               <tr>
                 <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
+                <td>
+                  <ul style='text-align:left'>
+                  <li>Création d’un réseau de 'sentinelles déchets' sur certains sites</li>
+                  <li>Zéro mise en décharge des déchets de production (valorisation énergétique ou matière)</li>
+                  <li>Évitement de la mise au rebus de 4 millions échantillons test de cathéters, post-contrôle Qualité</li>
+                  </ul>
+                </td>
               </tr>
             </table>
-
-
-
-            <br>
-            icon: 'electric_bolt'
-            > 99 % des déchets dangereux détournés de la mise en rebut, en 2021
-            <br>
-            icon: 'electric_bolt'
-            > 71 % des déchets non dangereux détournés de la mise en décharge, en 2021
-            <br>
-            icon: 'solar_power'
-            <ul style='text-align:left'>
-            <li>Création d’un réseau de 'sentinelles déchets' sur certains sites</li>
-            <li>Zéro mise en décharge des déchets de production (valorisation énergétique ou matière)</li>
-            <li>Évitement de la mise au rebus de 4 millions échantillons test de cathéters, post-contrôle Qualité</li>
-            </ul>
             </p>
         "
 

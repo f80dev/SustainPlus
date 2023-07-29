@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import {Subject} from "rxjs";
+import {environment} from "../environments/environment";
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,7 @@ export class UserService {
   public clouds:any={}
   landing_page: string=""
   authentification: any={}
-  params:any;
+  params:any={appname:environment.appname}
   content_change = new Subject<any>();
 
 

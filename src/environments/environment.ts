@@ -3,5 +3,7 @@ export const environment = {
   server:"",
   version:"1.0",
   website:"https://hollister-inc.com",
-  faqs:""
+  faqs:"",
+  appname: "Sustain Plus",
+  company: "F80"
 }

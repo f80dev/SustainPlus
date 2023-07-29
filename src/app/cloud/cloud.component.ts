@@ -1,5 +1,6 @@
 import {AfterContentInit, AfterViewInit, Component} from '@angular/core';
 import {UserService} from "../user.service";
+import {Location} from "@angular/common";
 
 @Component({
   selector: 'app-cloud',
@@ -8,16 +9,21 @@ import {UserService} from "../user.service";
 })
 export class CloudComponent implements AfterContentInit {
   content: string="";
-  words:string[]=[];
+  words:string[]=["<"];
   title: string = "";
 
-  constructor(public user:UserService) {
+  constructor(public user:UserService,public _location:Location) {
 
   }
 
   open_cloud(word: any) {
-    this.content=this.user.clouds[word];
-    this.title=word;
+    if(word=="<"){
+      this.go_back();
+    }else {
+      this.content=this.user.clouds[word];
+      this.title=word;
+    }
+
   }
 
   refresh(){
@@ -33,5 +39,9 @@ export class CloudComponent implements AfterContentInit {
     this.user.content_change.subscribe({
       next:this.refresh
       })
+  }
+
+  go_back() {
+    this._location.back();
   }
 }

@@ -16,6 +16,8 @@ export class ItemComponent implements OnChanges,AfterViewInit {
     @Input() expanded=false;
     @Output("onexpanded") on_expand: EventEmitter<any> =new EventEmitter();
 
+    styles="<style>.img_icon {filter: invert(1)} ul {margin:0;margin-left:-15px;}</style>"
+
     constructor() {
     }
 

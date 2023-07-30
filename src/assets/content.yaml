@@ -51,6 +51,7 @@ content:
                 27,419 milliards de tonnes équivalent CO2
                 <br>
                 (Bilan carbone 2020 portant sur les scopes 1 et 2, intégrant nos dispositifs de compensation)
+                <br>
                 </td>
               </tr>
               <tr>
@@ -90,7 +91,209 @@ content:
               <tr>
                 <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/solar_power/default/48px.svg'></td>
                 <td>
-                  <ul style='text-align:left'>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                  <li>Économies d’énergie : récupération de chaleur fatale ou résiduelle, 1ers plans de sobriété énergétique, systèmes de refroidissement naturel de l’air</li>
+                  <li>Monitoring énergétique : suivi des performances et audits</li>
+                  <li>Développement des énergies vertes</li>
+                  <li>Développement de l’autoproduction d’énergie renouvelable</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Approvisionnements responsables, gestion éclairée et économie circulaire"
+        color: "#669999"
+        content: "
+
+            <table>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/energy_savings_leaf/default/48px.svg'></td>
+                <td>> 1 000 tonnes équivalent CO2 économisées grâce aux achats d’énergie renouvelable, entre 2019 et 2021
+                <br>
+                </td>
+              </tr>
+              <br>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/delete_forever/default/48px.svg'></td>
+                <td>> 99 % des déchets dangereux détournés de la mise en rebut, en 2021
+                <br>
+                </td>
+              </tr>
+              <br>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/delete/default/48px.svg'></td>
+                <td>> 71 % des déchets non dangereux détournés de la mise en décharge, en 2021</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                    <li>Création d’un réseau de 'sentinelles déchets' sur certains sites</li>
+                    <li>Zéro mise en décharge des déchets de production (valorisation énergétique ou matière)</li>
+                    <li>Évitement de la mise au rebus de 4 millions échantillons test de cathéters, post-contrôle Qualité</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+
+        "
+
+      - title: "Éco-conception de nos produits et emballages"
+        color: "#669999"
+        content: "
+            <p style='color:white'>
+            <table>
+              <tr>
+                <td></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                  <li>Optimisation de nos procédés industriels</li>
+                  </ul>
+                 <br>
+                </td>
+              </tr>
+                <tr>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/water_drop/default/48px.svg'></td>
+                    <td>11 % de réduction des consommations d’eau sur la période 2019 - 2021
+                    <br>
+                    </td>
+                </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                    <li>Substitution des substances préoccupantes dans nos produits</li>
+                    <br>
+                    <li>Réalisation d’analyses de cycle de vie sur les principales gammes d'Hollister Inc.</li>
+                  </ul>
+                <br>
+                </td>
+              <tr>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/recycling/default/48px.svg'></td>
+                    <td>Études de faisabilité sur des matériaux biodégradables ou recyclables</td>
+              </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Préservation et restauration de la biodiversité"
+        color: "#669999"
+        content: "
+            <p style='text-align:left'>
+            Préservation du vivant et des milieux naturels de multiples façons,
+            depuis nos approvisionnements jusqu’aux systèmes de management de chacun de nos sites.
+            <br>
+            <table>
+                <tr>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/nature/default/48px.svg'></td>
+                    <td>Aménagement de nos espaces verts (ré)intégrant des essences et espèces endémiques (i.e. spécifiques à la zone géographique)
+                    <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/emoji_nature/default/48px.svg'></td>
+                    <td>Installation de ruches sur nos sites et fabrication de nichoirs à oiseaux</td>
+                </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Solidarité et soutien dans les champs de l'éducation, de la santé, du sport, de la culture ou de l'aide aux réfugiés"
+        color: "#993366"
+        content: "
+            <p style='text-align:left'>
+            <table>
+                <tr>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/volunteer_activism/default/48px.svg'></td>
+                    <td>> 36 M $ US de dons à des organisations locales à but non lucratif, sur la période 2019-2021
+                    <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/accessible_forward/default/48px.svg'></td>
+                    <td>> 300 000 M $ US de contributions à l’athlétisme handisport aux USA, entre 2019 et 2021</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                      <ul style='text-align:left;margin-left:-25px;'>
+                        <li>Plan de continuité robuste et solidarité en temps de crise</li>
+                        <li>Dons d’équipements médicaux essentiels dans des régions du monde sous-dotées</li>
+                        <li>Collectes spontanées organisées par nos collaborateurs</li>
+                      </ul>
+                      </td>
+                </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Retrouvez nos certifications et distinctions"
+        top: "34px"
+        icon: "new_releases"
+        content: "
+        <img src='./assets/icon_pdf.png' style='width:30px'>
+        "
+
+
+  - title: "Intégrité"
+    texttransform: "uppercase"
+    icon: "add_task"
+    content:
+      - title: "Réduction de nos émissions de gaz à effet de serre"
+        color: "#669999"
+        content: "
+            <p style='color:white'>
+            <table>
+              <tr>
+                <td>
+                  <img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/barefoot/default/48px.svg'>
+                </td>
+                <td>
+                27,419 milliards de tonnes équivalent CO2
+                <br>
+                (Bilan carbone 2020 portant sur les scopes 1 et 2, intégrant nos dispositifs de compensation)
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/ev_station/default/48px.svg'>
+                </td>
+                <td>
+                 Sur tous nos sites, incitations à une mobilité plus douce :
+                 </td>
+                <tr>
+                  <td></td>
+                  <td>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>verdissement de nos flottes automobiles</li>
+                      <li>installation de bornes de recharge pour véhicules électriques</li>
+                      <li>installation de parkings à vélos…</li>
+                    </ul>
+                  </td>
+              </tr>
+            </table>
+            </p>
+            "
+
+      - title: "Optimisation énergétique et réduction de notre dépendance aux énergies carbonées"
+        color: "#669999"
+        content: "
+            <p style='color:white'>
+            <table>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/electric_bolt/default/48px.svg'></td>
+                <td>3,8 % de gain en intensité énergétique pour nos sites industriels, sur la période 2019 - 2021</td>
+              </tr>
+            </table>
+
+            <br>
+            <table>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/solar_power/default/48px.svg'></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-20px;'>
                   <li>Économies d’énergie : récupération de chaleur fatale ou résiduelle, 1ers plans de sobriété énergétique, systèmes de refroidissement naturel de l’air</li>
                   <li>Monitoring énergétique : suivi des performances et audits</li>
                   <li>Développement des énergies vertes</li>
@@ -121,40 +324,49 @@ content:
                 <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/delete/default/48px.svg'></td>
                 <td>> 71 % des déchets non dangereux détournés de la mise en décharge, en 2021</td>
               </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                    <li>Création d’un réseau de 'sentinelles déchets' sur certains sites</li>
+                    <li>Zéro mise en décharge des déchets de production (valorisation énergétique ou matière)</li>
+                    <li>Évitement de la mise au rebus de 4 millions échantillons test de cathéters, post-contrôle Qualité</li>
+                  </ul>
+                </td>
+              </tr>
             </table>
-              <br>
-                <ul style='text-align:left'>
-                <li>Création d’un réseau de 'sentinelles déchets' sur certains sites</li>
-                <li>Zéro mise en décharge des déchets de production (valorisation énergétique ou matière)</li>
-                <li>Évitement de la mise au rebus de 4 millions échantillons test de cathéters, post-contrôle Qualité</li>
-                 </ul>
-          </p>
+            </p>
         "
 
       - title: "Éco-conception de nos produits et emballages"
         color: "#669999"
         content: "
             <p style='color:white'>
-            <ul style='text-align:left'>
-            <li>Optimisation de nos procédés industriels</li>
-            </ul>
             <table>
+              <tr>
+                <td></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                  <li>Optimisation de nos procédés industriels</li>
+                  </ul>
+                </td>
+              </tr>
                 <tr>
                     <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/water_drop/default/48px.svg'></td>
                     <td>11 % de réduction des consommations d’eau sur la période 2019 - 2021</td>
                 </tr>
-            <br>
-            </table>
-            <br>
-            <ul style='text-align:left'>
-            <li>Substitution des substances préoccupantes dans nos produits</li>
-            <li>Réalisation d’analyses de cycle de vie sur les principales gammes d'Hollister Inc.</li>
-            </ul>
-            <table>
-                <tr>
+              <tr>
+                <td></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                    <li>Substitution des substances préoccupantes dans nos produits</li>
+                    <li>Réalisation d’analyses de cycle de vie sur les principales gammes d'Hollister Inc.</li>
+                  </ul>
+                </td>
+              <tr>
                     <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/recycling/default/48px.svg'></td>
                     <td>Études de faisabilité sur des matériaux biodégradables ou recyclables</td>
-                </tr>
+              </tr>
             </table>
             </p>
         "
@@ -179,207 +391,52 @@ content:
             </p>
         "
 
-      - title: "Solidarité et soutien dans les champs de l'éducation, de la santé, du sport, de la culture ou de l'aide aux réfugiés"
-        color: "#cc6699"
-        content: "
-            <p style='text-align:left'>
-            <table>
-                <tr>
-                    <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/volunteer_activism/default/48px.svg'></td>
-                    <td>> 36 M $ US de dons à des organisations locales à but non lucratif, sur la période 2019-2021</td>
-                </tr>
-                <tr>
-                    <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/accessible_forward/default/48px.svg'></td>
-                    <td>> 300 000 M $ US de contributions à l’athlétisme handisport aux USA, entre 2019 et 2021</td>
-                </tr>
-            </table>
-            <br>
-            <ul style='text-align:left'>
-                <li>Plan de continuité robuste et solidarité en temps de crise</li>
-                <li>Dons d’équipements médicaux essentiels dans des régions du monde sous-dotées</li>
-                <li>Collectes spontanées organisées par nos collaborateurs</li>
-            </ul>
-            </p>
-        "
-
-      - title: "Retrouvez nos certifications et distinctions"
-        top: "34px"
-        icon: "new_releases"
-        content: "
-        <img src='./assets/icon_pdf.png' style='width:30px'>
-        "
-
-
-  - title: "Intégrité"
-    texttransform: "uppercase"
-    icon: "add_task"
-    content:
-      - title: "Réduction de nos émissions de gaz à effet de serre"
-        color: "#669999"
-        content: "
-            <p style='color:white'>
-            <table>
-              <tr>
-                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/barefoot/default/48px.svg'></td>
-                <td>
-                27,419 milliards de tonnes équivalent CO2
-                <br>
-                (Bilan carbone 2020 portant sur les scopes 1 et 2, intégrant nos dispositifs de compensation)
-                </td>
-              </tr>
-            </table>
-
-            <br>
-            <img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/ev_station/default/48px.svg'>
-            Sur tous nos sites, incitations à une mobilité plus douce :
-            <ul style='text-align:left'>
-            <li>verdissement de nos flottes automobiles</li>
-            <li>installation de bornes de recharge pour véhicules électriques</li>
-            <li>installation de parkings à vélos…</li>
-            </ul>
-            </p>
-            "
-
-      - title: "Optimisation énergétique et réduction de notre dépendance aux énergies carbonées"
-        color: "#669999"
-        content: "
-            <p style='color:white'>
-            <table>
-              <tr>
-                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/electric_bolt/default/48px.svg'></td>
-                <td>3,8 % de gain en intensité énergétique pour nos sites industriels, sur la période 2019 - 2021</td>
-              </tr>
-            </table>
-
-            <br>
-            <table>
-              <tr>
-                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/solar_power/default/48px.svg'></td>
-                <td>
-                  <ul style='text-align:left'>
-                  <li>Économies d’énergie : récupération de chaleur fatale ou résiduelle, 1ers plans de sobriété énergétique, systèmes de refroidissement naturel de l’air</li>
-                  <li>Monitoring énergétique : suivi des performances et audits</li>
-                  <li>Développement des énergies vertes</li>
-                  <li>Développement de l’autoproduction d’énergie renouvelable</li>
-                  </ul>
-                </td>
-              </tr>
-            </table>
-            </p>
-        "
-
-      - title: "Approvisionnements responsables, gestion éclairée et économie circulaire"
-        color: "#669999"
-        content: "
-            <p style='color:white'>
-            <table>
-              <tr>
-                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/energy_savings_leaf/default/48px.svg'></td>
-                <td>> 1 000 tonnes équivalent CO2 économisées grâce aux achats d’énergie renouvelable, entre 2019 et 2021</td>
-              </tr>
-              <br>
-              <tr>
-                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/delete_forever/default/48px.svg'></td>
-                <td>> 99 % des déchets dangereux détournés de la mise en rebut, en 2021</td>
-              </tr>
-              <br>
-              <tr>
-                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/delete/default/48px.svg'></td>
-                <td>> 71 % des déchets non dangereux détournés de la mise en décharge, en 2021</td>
-              </tr>
-            </table>
-              <br>
-                <ul style='text-align:left'>
-                <li>Création d’un réseau de 'sentinelles déchets' sur certains sites</li>
-                <li>Zéro mise en décharge des déchets de production (valorisation énergétique ou matière)</li>
-                <li>Évitement de la mise au rebus de 4 millions échantillons test de cathéters, post-contrôle Qualité</li>
-                 </ul>
-          </p>
-        "
-
-      - title: "Éco-conception de nos produits et emballages"
-        color: "#669999"
-        content: "
-            <p style='color:white'>
-            <ul style='text-align:left'>
-            <li>Optimisation de nos procédés industriels</li>
-            </ul>
-            <table>
-                <tr>
-                    <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/water_drop/default/48px.svg'></td>
-                    <td>11 % de réduction des consommations d’eau sur la période 2019 - 2021</td>
-                </tr>
-            <br>
-            </table>
-            <br>
-            <ul style='text-align:left'>
-            <li>Substitution des substances préoccupantes dans nos produits</li>
-            <li>Réalisation d’analyses de cycle de vie sur les principales gammes d'Hollister Inc.</li>
-            </ul>
-            <table>
-                <tr>
-                    <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/recycling/default/48px.svg'></td>
-                    <td>Études de faisabilité sur des matériaux biodégradables ou recyclables</td>
-                </tr>
-            </table>
-            </p>
-        "
-
-      - title: "Préservation et restauration de la biodiversité"
-        color: "#669999"
-        content: "
-            <p style='text-align:left'>
-            Préservation du vivant et des milieux naturels de multiples façons,
-            depuis nos approvisionnements jusqu’aux systèmes de management de chacun de nos sites.
-            <br>
-            <table>
-                <tr>
-                    <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/nature/default/48px.svg'></td>
-                    <td>Aménagement de nos espaces verts (ré)intégrant des essences et espèces endémiques (i.e. spécifiques à la zone géographique)</td>
-                </tr>
-                <tr>
-                    <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/emoji_nature/default/48px.svg'></td>
-                    <td>Installation de ruches sur nos sites et fabrication de nichoirs à oiseaux</td>
-                </tr>
-            </table>
-            </p>
-        "
-
       - title: "Promotion de la diversité, de l'équité et de l'inclusion, et lutte contre toute forme de discrimination"
-        color: "#666699"
+        color: "#006699"
         content: "
             <p style='text-align:left'>
             <table>
                 <tr>
-                    <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/female/default/48px.svg'></td>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/female/default/48px.svg'></td>
                     <td>38 % de femmes occupant un poste de direction ou de management en 2021 (contre 35 % en 2020)</td>
                 </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                      <ul style='text-align:left'>
+                        <li>Nous cultivons un environnement de travail ouvert et respectueux, favorisant l’égalité de traitement, l’égalité des chances et l’inclusion</li>
+                        <li>Élaboration d’une stratégie Diversité, Équité & Inclusion et constitution d’un Comité dédié</li>
+                        <li>Plans de développement individuels, associant formations terrain, feedbacks et mentorat</li>
+                      </ul>
+                    </td>
+                </tr>
             </table>
-            <ul style='text-align:left'>
-            <li>Nous cultivons un environnement de travail ouvert et respectueux, favorisant l’égalité de traitement, l’égalité des chances et l’inclusion</li>
-            <li>Élaboration d’une stratégie Diversité, Équité & Inclusion et constitution d’un Comité dédié</li>
-            <li>Plans de développement individuels, associant formations terrain, feedbacks et mentorat</li>
-            </ul>
             </p>
         "
 
       - title: "Conduite des affaires éthique et transparente"
-        color: "#666699"
+        color: "#006699"
         content: "
         <p style='text-align:left'>
-            Nous avons élaboré et veillons à la bonne application de plusieurs Codes de conduite :
-            <ul style='text-align:left'>
-            <li>à l’attention de nos collaborateurs</li>
-            <li>à l’attention de nos fournisseurs</li>
-            <li>à l’attention des distributeurs de nos produits</li>
-            </ul>
-            <table>
+           Nous avons élaboré et veillons à la bonne application de plusieurs Codes de conduite :
+           <table>
                 <tr>
-                    <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/security_update_warning/default/48px.svg'></td>
-                    <td>Un dispositif d’alerte permet de recueillir tout signalement de nature RH, sociale, éthique ou toute non-conformité aux règles édictées dans l’un de nos Codes de conduite</td>
+                  <td></td>
+                  <td>
+                    <ul style='text-align:left'>
+                      <li>à l’attention de nos collaborateurs</li>
+                      <li>à l’attention de nos fournisseurs</li>
+                      <li>à l’attention des distributeurs de nos produits</li>
+                    </ul>
+                  </td>
                 </tr>
                 <tr>
-                    <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/cast_warning/default/48px.svg'></td>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/security_update_warning/default/48px.svg'></td>
+                    <td>Un dispositif d’alerte permet de recueillir tout signalement de nature RH, sociale, éthique ou toute non-conformité aux règles édictées dans l’un de nos Codes de conduite</td>
+                </tr>
+                <br>
+                <tr>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/cast_warning/default/48px.svg'></td>
                     <td>Nous développons des parcours de formation spécifiques aux métiers les plus exposés à ces différents risques (ex : corruption, pratiques non-éthiques d’un partenaire…)</td>
                 </tr>
             </table>
@@ -399,49 +456,53 @@ content:
     icon: "volunteer_activism"
     content:
       - title: "Promotion de la diversité, de l'équité et de l'inclusion, et lutte contre toute forme de discrimination"
-        color: "#666699"
+        color: "#006699"
         content: "
             <p style='text-align:left'>
             <table>
                 <tr>
-                    <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/female/default/48px.svg'></td>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/female/default/48px.svg'></td>
                     <td>38 % de femmes occupant un poste de direction ou de management en 2021 (contre 35 % en 2020)</td>
                 </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                      <ul style='text-align:left'>
+                        <li>Nous cultivons un environnement de travail ouvert et respectueux, favorisant l’égalité de traitement, l’égalité des chances et l’inclusion</li>
+                        <li>Élaboration d’une stratégie Diversité, Équité & Inclusion et constitution d’un Comité dédié</li>
+                        <li>Plans de développement individuels, associant formations terrain, feedbacks et mentorat</li>
+                      </ul>
+                    </td>
+                </tr>
             </table>
-            <ul style='text-align:left'>
-            <li>Nous cultivons un environnement de travail ouvert et respectueux, favorisant l’égalité de traitement, l’égalité des chances et l’inclusion</li>
-            <li>Élaboration d’une stratégie Diversité, Équité & Inclusion et constitution d’un Comité dédié</li>
-            <li>Plans de développement individuels, associant formations terrain, feedbacks et mentorat</li>
-            </ul>
             </p>
         "
 
       - title: "Pour un environnement de travail sans danger, préservant la santé et la sécurité de chacun.e"
-        color: "#666699"
+        color: "#006699"
         content: "
           <p style='text-align:left'>
           <table>
               <tr>
-                  <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/personal_injury/default/48px.svg'></td>
+                  <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/personal_injury/default/48px.svg'></td>
                   <td>Taux global d’accidents du travail (AT) < 1 sur la période de référence
               <br>
                   (2021 vs 2019)</td>
               </tr>
-          </table>
           <br>
-          <table>
               <tr>
-                  <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/engineering/default/48px.svg'></td>
+                  <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/engineering/default/48px.svg'></td>
                   <td>Nous avons développé une véritable culture SST (santé-sécurité au travail) au sein du Groupe Hollister :</td>
               </tr>
+                  <td></td>
                   <td>
-              <ul>
-              <li>Formation continue des collaborateur.ice.s</li>
-              <li>Constitution d’Unités de sécurité et création de Comités locaux pour la sécurité</li>
-              <li>Réunions hebdomadaires avec les Directeurs de nos sites, dédiées à la SST</li>
-              <li>Conduite d’audits SST mensuels</li>
-              <li>Déploiement d’un programme dédié à la protection des membres supérieurs, déployé sur les sites de production du Groupe</li>
-              </ul>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Formation continue des collaborateur.ice.s</li>
+                      <li>Constitution d’Unités de sécurité et création de Comités locaux pour la sécurité</li>
+                      <li>Réunions hebdomadaires avec les Directeurs de nos sites, dédiées à la SST</li>
+                      <li>Conduite d’audits SST mensuels</li>
+                      <li>Déploiement d’un programme dédié à la protection des membres supérieurs, déployé sur les sites de production du Groupe</li>
+                    </ul>
                   </td>
               </tr>
           </table>
@@ -449,57 +510,59 @@ content:
         "
 
       - title: "Rendre accessible au plus grand nombre des produits fiables, simples d'utilisation et de manipulation, tout en préservant l'épiderme"
-        color: "#cc6699"
+        color: "#993366"
         content: "
-        <p style='text-align:center;font-weight:semi-bold;'>
+        <p style='text-align:left;font-weight:semi-bold;'>
         <u>Notre mission</u>:
         <br>
         <span style='opacity:0.5;'>Rendre la vie des personnes qui utilisent nos produits et services plus digne et gratifiante</span>
         </p>
-        <p style='text-align:left;font-weight: lighter;'>
+        Nous offrons la meilleure qualité de soin possible au patient :
         <table>
             <tr>
-                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/heart_plus/default/48px.svg'></td>
-                <td>Nous offrons la meilleure qualité de soin possible au patient :
-                <ul>
-                <li>des produits fiables (garantie d’étanchéité)</li>
-                <li>des produits simples d’utilisation et de manipulation</li>
-                <li>des produits protégeant l’épiderme du patient</li>
-                </ul>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/heart_plus/default/48px.svg'></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                    <li>des produits fiables (garantie d’étanchéité)</li>
+                    <li>des produits simples d’utilisation et de manipulation</li>
+                    <li>des produits protégeant l’épiderme du patient</li>
+                  </ul>
+                <br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                    <li>Nous souhaitons faciliter l’autonomisation du patient, à chaque étape de son parcours de soins</li>
+                  </ul>
                 </td>
             </tr>
         </table>
-        <table>
-            <tr>
-                <td>
-                <ul>
-                    <li>Nous souhaitons faciliter l’autonomisation du patient, à chaque étape de son parcours de soins</li>
-                </ul>
-                </td>
-            </tr>
-            </table>
-            </p>
+        </p>
         "
 
       - title: "Mieux comprendre le vécu du patient, ses préoccupations et les conditions d'une qualité de vie optimale pour ses proches aidants et lui/elle"
-        color: "#cc6699"
+        color: "#993366"
         content: "
         <p style='text-align:left'>
         <table>
             <tr>
-                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/biotech/default/48px.svg'></td>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/biotech/default/48px.svg'></td>
                 <td>Nous soutenons l’innovation en :</td>
             </tr>
-        </table>
-            <ul>
-                <li>animant des comités scientifiques consultatifs (évaluation clinique des produits, partage d’expertises et pistes d’optimisation…)</li>
-                <li>soutenant la recherche clinique</li>
-                <li>participant à des groupes de travail internationaux dédiés aux soins de stomie et de la continence</li>
-            </ul>
-            <br>
-            <table>
             <tr>
-                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/admin_panel_settings/default/48px.svg'></td>
+              <td></td>
+              <td>
+                <ul style='text-align:left;margin-left:-25px;'>
+                  <li>animant des comités scientifiques consultatifs (évaluation clinique des produits, partage d’expertises et pistes d’optimisation…)</li>
+                  <li>soutenant la recherche clinique</li>
+                  <li>participant à des groupes de travail internationaux dédiés aux soins de stomie et de la continence</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/admin_panel_settings/default/48px.svg'></td>
                 <td>L’ensemble de notre force de vente est formée à l’utilisation de nos produits</td>
             </tr>
         </table>
@@ -518,88 +581,91 @@ content:
     icon: "health_and_safety"
     content:
       - title: "Rendre accessible au plus grand nombre des produits fiables, simples d'utilisation et de manipulation, tout en préservant l'épiderme"
-        color: "#cc6699"
+        color: "#993366"
         content: "
-        <p style='text-align:center;font-weight:bold'>
-        <br>
-        <u>Notre mission</u>
-         :
-        <br>
-        <span style='color:#cc6699'>Rendre la vie des personnes qui utilisent nos produits et services plus digne et gratifiante</span>
-        </p>
-        <p style='text-align:left'>
-        <table>
-            <tr>
-                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/heart_plus/default/48px.svg'></td>
-                <td>Nous offrons la meilleure qualité de soin possible au patient :
-                <ul>
-                <li>des produits fiables (garantie d’étanchéité)</li>
-                <li>des produits simples d’utilisation et de manipulation</li>
-                <li>des produits protégeant l’épiderme du patient</li>
-                </ul>
-                </td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td>
-                <ul>
-                    <li>Nous souhaitons faciliter l’autonomisation du patient, à chaque étape de son parcours de soins</li>
-                </ul>
-                </td>
-            </tr>
-            </table>
-            </p>
-        "
+          <p style='text-align:left;font-weight:semi-bold;'>
+          <u>Notre mission</u>:
+          <br>
+          <span style='opacity:0.5;'>Rendre la vie des personnes qui utilisent nos produits et services plus digne et gratifiante</span>
+          </p>
+          Nous offrons la meilleure qualité de soin possible au patient :
+          <table>
+              <tr>
+                  <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/heart_plus/default/48px.svg'></td>
+                  <td>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>des produits fiables (garantie d’étanchéité)</li>
+                      <li>des produits simples d’utilisation et de manipulation</li>
+                      <li>des produits protégeant l’épiderme du patient</li>
+                    </ul>
+                  <br>
+                  </td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Nous souhaitons faciliter l’autonomisation du patient, à chaque étape de son parcours de soins</li>
+                    </ul>
+                  </td>
+              </tr>
+          </table>
+          </p>
+          "
 
       - title: "Mieux comprendre le vécu du patient, ses préoccupations et les conditions d'une qualité de vie optimale pour ses proches aidants et lui/elle"
-        color: "#cc6699"
+        color: "#993366"
         content: "
         <p style='text-align:left'>
         <table>
             <tr>
-                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/biotech/default/48px.svg'></td>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/biotech/default/48px.svg'></td>
                 <td>Nous soutenons l’innovation en :</td>
             </tr>
-        </table>
-            <ul>
-                <li>animant des comités scientifiques consultatifs (évaluation clinique des produits, partage d’expertises et pistes d’optimisation…)</li>
-                <li>soutenant la recherche clinique</li>
-                <li>participant à des groupes de travail internationaux dédiés aux soins de stomie et de la continence</li>
-            </ul>
-            <br>
-            <table>
             <tr>
-                <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/admin_panel_settings/default/48px.svg'></td>
+              <td></td>
+              <td>
+                <ul style='text-align:left;margin-left:-25px;'>
+                  <li>animant des comités scientifiques consultatifs (évaluation clinique des produits, partage d’expertises et pistes d’optimisation…)</li>
+                  <li>soutenant la recherche clinique</li>
+                  <li>participant à des groupes de travail internationaux dédiés aux soins de stomie et de la continence</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/admin_panel_settings/default/48px.svg'></td>
                 <td>L’ensemble de notre force de vente est formée à l’utilisation de nos produits</td>
             </tr>
         </table>
         </p>
         "
 
-      - title: "Solidarité et soutien dans les champs de l'éducation, de la santé, du sport, de la culture ou encore de l'aide aux réfugiés"
-        color: "#cc6699"
+      - title: "Solidarité et soutien dans les champs de l'éducation, de la santé, du sport, de la culture ou de l'aide aux réfugiés"
+        color: "#993366"
         content: "
             <p style='text-align:left'>
             <table>
                 <tr>
-                    <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/volunteer_activism/default/48px.svg'></td>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/volunteer_activism/default/48px.svg'></td>
                     <td>> 36 M $ US de dons à des organisations locales à but non lucratif, sur la période 2019-2021</td>
                 </tr>
                 <tr>
-                    <td><img src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/accessible_forward/default/48px.svg'></td>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/accessible_forward/default/48px.svg'></td>
                     <td>> 300 000 M $ US de contributions à l’athlétisme handisport aux USA, entre 2019 et 2021</td>
                 </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                      <ul style='text-align:left;margin-left:-25px;'>
+                        <li>Plan de continuité robuste et solidarité en temps de crise</li>
+                        <li>Dons d’équipements médicaux essentiels dans des régions du monde sous-dotées</li>
+                        <li>Collectes spontanées organisées par nos collaborateurs</li>
+                      </ul>
+                      </td>
+                </tr>
             </table>
-            <br>
-            <ul style='text-align:left'>
-                <li>Plan de continuité robuste et solidarité en temps de crise</li>
-                <li>Dons d’équipements médicaux essentiels dans des régions du monde sous-dotées</li>
-                <li>Collectes spontanées organisées par nos collaborateurs</li>
-            </ul>
             </p>
         "
-
 
   - title: "Nos défis pour le futur"
     top: "34px"
@@ -615,7 +681,7 @@ content:
             </ul>
             "
 
-      - title: "<span style='color:#ffcc99'>Nos défis pour un futur durable</span>"
+      - title: "<span style='color:#993366'>Nos défis pour un futur durable</span>"
         icon: "diversity_1"
         content: "
             <ul style='text-align:left'>
@@ -624,7 +690,7 @@ content:
             </ul>
             "
 
-      - title: "<span style='color:#99ccff'>Nos défis pour un futur désirable</span>"
+      - title: "<span style='color:#006699'>Nos défis pour un futur désirable</span>"
         icon: "diversity_2"
         content: "
             <ul style='text-align:left'>

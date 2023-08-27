@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1693171220566,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.js",
+        "/manifest.webmanifest",
+        "/polyfills.js",
+        "/runtime.js",
+        "/styles.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/content.yaml",
+        "/assets/content_old.yaml",
+        "/assets/icon_pdf.png",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/logo-hollister.webp",
+        "/assets/logo.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/content.yaml": "2ab2cb37a8a651ed53d48c8fb1d471a22f2dcaae",
+    "/assets/content_old.yaml": "e17b0de6312531d4ed737a3f48107ec9531632ad",
+    "/assets/icon_pdf.png": "046196df521ae8b3b4bc02ac7e62e221e689d75a",
+    "/assets/icons/icon-128x128.png": "87868f37eefec7e8cb9e1523686aa99c57893321",
+    "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/assets/icons/icon-384x384.png": "2b6c4eeaafaf978748457de1cb8458d2c235828f",
+    "/assets/icons/icon-512x512.png": "128c4fba750bb27aa1f7d2b183414d596679f829",
+    "/assets/icons/icon-72x72.png": "fbbb0a57e874940552ae7a98ba18d27a5f45f90b",
+    "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/assets/logo-hollister.webp": "d1b77db49618fff9f6b5aef592584917249df45c",
+    "/assets/logo.png": "966a89811831fad07f6920e5ffd583d5d3f8281a",
+    "/favicon.ico": "87868f37eefec7e8cb9e1523686aa99c57893321",
+    "/index.html": "a5e817d879eb24a6d74ac75f10da191f8bdda019",
+    "/main.js": "57031c3d30b156813df3fd2f730ac7807b949338",
+    "/manifest.webmanifest": "67fef80a051dfef046922002f32509d4d6a1264f",
+    "/polyfills.js": "06ed2f9ddb53644708f00df7d4a36bdc64c8f91a",
+    "/runtime.js": "5945681c771ca4dfca6147d03c0fd90fffdeec39",
+    "/styles.css": "b06014a296079891efe22feebb555db50242bfca"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

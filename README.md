@@ -1,27 +1,20 @@
 # SustainPlus
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+## Architecture
+  SustainPlus was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+  This web app is compatible with all type of device from smartphone to computer
 
-## Development server
+# Installation
+## Installation on a new domain
+  To install SustainPlus on a new domain like with github : "https://sustainplus.<your_domain>.com" you must :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  1. Set your DNS to use the GitHubPage : https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+  2. Deploy the web application on the github repository for this you can use the item exemples in the package json file in the "script" section
 
-## Code scaffolding
+  Of course, SustainPlus may be installed without GithubPage with any http server like Apache or NGinx
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# Update the content
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  To update the content you can update the content YAML file in the src/assets directory directly on github 
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

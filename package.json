@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve --port 4208",
     "deploy": "ng build --aot --output-hashing=none --source-map=false --optimization=true --configuration production && gh-pages -d ./dist --repo https://github.com/f80dev/SustainPlus.git -f -t true -b gh-pages -m \"update from gh-pages\"",
+    "f80production": "ng build --aot --output-hashing=none --source-map=false --optimization=true --configuration f80production && gh-pages -d ./dist --repo https://github.com/f80dev/sustainplusprod.git -f -t true -b gh-pages -m \"update from gh-pages\"",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

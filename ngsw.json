@@ -1,0 +1,103 @@
+{
+  "configVersion": 1,
+  "timestamp": 1708955732751,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.js",
+        "/manifest.webmanifest",
+        "/polyfills.js",
+        "/runtime.js",
+        "/styles.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/HOLLISTERFRANCECertif2023.pdf",
+        "/assets/HOLLISTER_CORPORATE_ESGReport2022.pdf",
+        "/assets/HOLLISTER_FRANCE_Lexique_2024.pdf",
+        "/assets/HOLLISTER_FRANCE_One_Page_2024.pdf",
+        "/assets/content._old3yaml",
+        "/assets/content.yaml",
+        "/assets/content_old.yaml",
+        "/assets/content_old2.yaml",
+        "/assets/icon_pdf.png",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/logo-hollister.webp",
+        "/assets/logo.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/HOLLISTERFRANCECertif2023.pdf": "f2fca6327a7ffb5c79b89ce0d3a5249ad9cae8a8",
+    "/assets/HOLLISTER_CORPORATE_ESGReport2022.pdf": "5a6f27f906e94a291ca1a5b55edc20115c2e9478",
+    "/assets/HOLLISTER_FRANCE_Lexique_2024.pdf": "f61b27325b326b89addb58f7651eb2c4bbfbf58a",
+    "/assets/HOLLISTER_FRANCE_One_Page_2024.pdf": "3845157315ae7b54f5bbf62e09e141f85f92feb2",
+    "/assets/content._old3yaml": "298f1fc59b4155a8fac314de583fcae9df96c230",
+    "/assets/content.yaml": "c7be1e00b7ef333d67c775200baa9c9c56938cbc",
+    "/assets/content_old.yaml": "e17b0de6312531d4ed737a3f48107ec9531632ad",
+    "/assets/content_old2.yaml": "09b8e3e594f89a4352f9a174800f0042248c4ee2",
+    "/assets/icon_pdf.png": "046196df521ae8b3b4bc02ac7e62e221e689d75a",
+    "/assets/icons/icon-128x128.png": "87868f37eefec7e8cb9e1523686aa99c57893321",
+    "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/assets/icons/icon-384x384.png": "2b6c4eeaafaf978748457de1cb8458d2c235828f",
+    "/assets/icons/icon-512x512.png": "128c4fba750bb27aa1f7d2b183414d596679f829",
+    "/assets/icons/icon-72x72.png": "fbbb0a57e874940552ae7a98ba18d27a5f45f90b",
+    "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/assets/logo-hollister.webp": "d1b77db49618fff9f6b5aef592584917249df45c",
+    "/assets/logo.png": "966a89811831fad07f6920e5ffd583d5d3f8281a",
+    "/favicon.ico": "87868f37eefec7e8cb9e1523686aa99c57893321",
+    "/index.html": "b64560a45abbdc49065b2487e20db78743beda08",
+    "/main.js": "440dd45f91140cdf70d99346726bcc56b269b3a4",
+    "/manifest.webmanifest": "67fef80a051dfef046922002f32509d4d6a1264f",
+    "/polyfills.js": "44c74d4a432e206c056af42401512bfd5e89d4f6",
+    "/runtime.js": "5945681c771ca4dfca6147d03c0fd90fffdeec39",
+    "/styles.css": "da804644e00276329fa78d724e2d16be813a3b1c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

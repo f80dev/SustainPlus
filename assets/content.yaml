@@ -1,0 +1,841 @@
+version: 1.0
+description: "Web app (mini site) dédié(e) à la force de vente de Hollister France, présentant les axes clés de la démarche RSE du Groupe Hollister. L'ensemble des chiffres et données sont issus de la dernière version existante du Rapport Développement Durable Groupe"
+redacteur: "Cécile Da Cunha"
+
+authentification:
+  active: false
+  message: "Merci de bien vouloir vous identifier"
+  password: "az"
+  password_old: Holl20!23
+  error: "
+        Mot de passe incorrect.<br>
+        Merci de bien vouloir réessayer
+        "
+  description:
+        "
+        Une mission commune anime et motive l'ensemble des collaborateurs de Hollister Inc : être utile au plus grand nombre et servir une cause plus grande que soi.
+        Ainsi, partout dans le monde, les efforts du Groupe sont centrés non seulement sur les réalités immédiates, mais aussi sur l’évolution des besoins - et ceci est encore plus vrai pour notre approche de la responsabilité sociétale.
+        Issu d’une démarche volontaire, ce Rapport Développement durable illustre non seulement notre engagement continu envers les patients, les professionnels de santé et nos collaborateurs dans le monde entier, mais aussi face aux questions environnementales et sociales majeures de notre époque.
+
+        La prochaine étape de cette démarche d’amélioration continue consiste à enrichir et à structurer davantage notre approche stratégique de la responsabilité sociétale, à tirer parti des succès et des enseignements passés, et à définir les objectifs qui jalonneront notre trajectoire sur le long terme.
+        "
+
+landing_page: "
+        <img src='./assets/logo-hollister.webp' style='width:200px'><br><br>
+
+        <h3>Bienvenue sur l'application Sustain Plus</h3>
+        <span style='font-style:italic;'>« L’histoire de notre Groupe - et a
+        fortiori son avenir - sont autant de témoignages
+        de la durabilité de nos principes fondateurs qu’une démonstration concrète de nos capacités de résilience et d’adaptation. »
+        </span>
+        <br><br>
+        V. George Maliekel, Président directeur général,<br>The Firm of John Dickinson Schneider, Inc.
+    "
+
+content:
+  - title: "Respect de l'héritage"
+    texttransform: "uppercase"
+    icon: "compost"
+    message: "Nos champs d'action"
+    content:
+      - title: "Réduction de nos émissions de gaz à effet de serre"
+        color: "#669999"
+        content: "
+            <p style='color:white'>
+            <table>
+              <tr>
+                <td>
+                  <img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/airplanemode_inactive/default/48px.svg'>
+               </td>
+                <td>
+                <strong>Le fret aérien représente 57 % de nos émissions liées au transport</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li><strong>Avion remplacé par du fret routier</strong> pour tous les acheminements depuis nos usines européennes jusqu'à notre plateforme logistique de Roosendaal (Pays-Bas)</li>
+                      <li><strong>Avion remplacé par des fourgons utilitaires</strong> pour la livraison de nos distributeurs et de nos entrepôts, en Europe</li>
+                <br>... et ce, sans incidence en termes de délais ou de coûts pour nos clients
+                    </ul>
+                <br>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/ev_station/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Le Groupe propose à ses collaborat.eu.r.ice.s plusieurs dispositifs incitant à une mobilité plus douce</strong> : verdissement des flottes automobiles, bornes de recharge pour véhicules électriques et hangars à vélo sur site, service de navettes collectives…
+                <br>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/new_releases/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Le Groupe nourrit un objectif de certification ISO 14001 pour tous ses sites d'exploitation dans le monde</strong>, d'ici à fin 2028 (production et logistiques)
+                 </td>
+                  <td></td>
+              </tr>
+            </table>
+            </p>
+            "
+
+      - title: "Efficacité énergétique et réduction de notre dépendance aux énergies carbonées"
+        color: "#669999"
+        content: "
+            <p style='color:white'>
+            <table>
+              <tr>
+                <td>
+                  <img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/solar_power/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Nous intensifions nos efforts pour optimiser notre consommation d'énergie et transformer nos procédés de fabrication</strong>, évoluer vers des équipements sobres en énergie, tout en augmentant nos approvisionnements et notre capacité d’autoproduction d’<strong>énergie renouvelable</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Par exemple : parc de panneaux solaires à Bawal, en Inde</li>
+                    </ul>
+                <br>
+                </td>
+              </tr>
+              <tr>
+              <td></td>
+              <td>
+               En 2022, à l’échelle de toutes nos unités de production, <strong>l'intensité énergétique moyenne</strong> - exprimée en kwh pour 1 000 unités produites - <strong>a baissé de plus de 20 %</strong>
+              </td>
+              </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Approvisionnements responsables, gestion éclairée des ressources et économie circulaire"
+        color: "#669999"
+        content: "
+            <p style='color:white'>
+            <table>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/water_drop/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Nous nous astreignons à toujours plus de sobriété, en ce qui concerne la ressource Eau</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Sur la période 2019-2022, le <strong>ratio moyen</strong> d’eau nécessaire à la fabrication de 1 000 unités est <strong>passé de 6 % à 5,6 %</strong></li>
+                      <li>Le site de Bawal (Inde) collecte les eaux de pluie et dispose de <strong>sa propre station de traitement</strong> (in-situ) : cela lui permet de donner une seconde vie à ses eaux usées et aux eaux de pluie, pour l'irrigation du site et ses aménagements paysagers</li>
+                    </ul>
+                <br>
+                </td>
+              </tr>
+              <br>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/recycling/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Sur ses sites d'exploitation, Hollister s’efforce de faire du réutilisable la règle et de l'usage unique l'exception</strong>
+                <br>
+                Pour ce faire :
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>nous avons remplacé les sur-chaussures en fibres plastique par des bottillons antistatiques réutilisables</li>
+                      <li>nous utilisons des chiffons non pelucheux réutilisables pour le nettoyage des équipements industriels</li>
+                      <li>des sacs en polyéthylène réutilisables sont visibles sur nos lignes de production</li>
+                    </ul>
+                <br>
+                </td>
+              </tr>
+              <br>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/delete_forever/default/48px.svg'>
+                </td>
+                <td>
+                La mise en décharge des déchets augmente la production de gaz à effet de serre (GES) à très fort pouvoir de réchauffement, comme le méthane.
+                <br>
+                <strong>En 2022, nous avons détourné de la mise en décharge 74 % des déchets liés aux produits Hollister :</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Au global, 23 % ont été <strong>recyclés</strong> (i.e. « valorisation matière »)</li>
+                      <li>Au global, 51 % ont été <strong>incinérés avec récupération d’énergie</strong> (i.e. « valorisation énergétique »)</li>
+                    </ul>
+                <br>
+                </td>
+              </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Éco-conception de nos produits et emballages"
+        color: "#669999"
+        content: "
+            <p style='color:white'>
+            <table>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/all_inclusive/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Le développement R&D de nos principales gammes de produits intègre une analyse de cycle de vie</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Sonde Infyna ChicTM : sans PVC, allégée en matières plastique (- 11 % vs version précédente du produit), étui en mono matériau (i.e. recyclable)</li>
+                      <li>Sonde OnliTM pour sondage intermittent :  sans PVC ni phtalates, allégée en matières plastique et plus ergonomique (i.e. user-friendly)</li>
+                    </ul>
+                <br>
+                </td>
+              </tr>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/package_2/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Nous procédons régulièrement à certains arbitrages concernant nos emballages :</strong>
+                <br>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                  <li>suppression des encres à base de solvant</li>
+                  <li>recours à des emballages en carton vierge (i.e. non blanchis, chimiquement) et labellisés FSC (Forest Stewardship Council)</li>
+                  <li>colisage optimisé, etc</li>
+                  </ul>
+                <br>
+                </td>
+              </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Préservation et restauration de la biodiversité"
+        color: "#669999"
+        content: "
+            <p style='text-align:left'>
+            <table>
+             <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/emoji_nature/default/48px.svg'>
+                </td>
+                <td>
+                Face aux menaces induites par le dérèglement climatique, <strong>il est de notre responsabilité de faire notre part pour protéger le vivant et la nature, et contribuer à leur régénération</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Réintroduction d’<strong>essences endémiques</strong> (i.e. arbres et/ou plantes spécifiques à une zone géographique donnée)</li>
+                      <li><strong>Réensauvagement</strong> de certains de nos espaces verts</li>
+                      <li><strong>Réintroduction</strong> d’espèces animales protégées</li>
+                      <li>Mobilisation de nos collaborat.eu.r.ice.s pour qu’iels construisent des <strong>habitats protégés</strong> pour certains animaux, etc</li>
+                    </ul>
+                <br>
+                </td>
+             </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Solidarité et soutien à l'éducation, à la santé, aux réfugiés, au sport ou à la culture"
+        color: "#993366"
+        content: "
+            <p style='text-align:left'>
+            <table>
+                <tr>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/accessible_forward/default/48px.svg'></td>
+                    <td>
+                    <strong>JDS, The firm of John Dickinson Schneider Inc., soutient un certain nombre d’organisations à but non lucratif</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>En 2022, le Group a distribué <strong>plus de 1,2 million de dollars US</strong> dans le monde</li>
+                      <li>Parmi les bénéficiaires, on recense plusieurs associations d’<strong>athlétisme handisport</strong> nord-américaines, des programmes universitaires liés au handisport, la Fondation de Crohn and Colitis, ainsi que le Salon grand public « Abilities Expo » (USA)</li>
+                    </ul>
+                <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/volunteer_activism/default/48px.svg'>
+                    </td>
+                    <td><strong>Chaque année, les collaborat.eu.r.ice.s des entités Hollister à l’international se mobilisent pour soutenir une cause qui leur est chère</strong> : collectes de fonds, participation bénévole à des courses et/ou challenges sportifs, ramassage de déchets ou plantation d‘arbres, etc</td>
+                </tr>
+            </table>
+            </p>
+        "
+
+
+  - title: "Intégrité"
+    texttransform: "uppercase"
+    icon: "add_task"
+    content:
+      - title: "Réduction de nos émissions de gaz à effet de serre"
+        color: "#669999"
+        content: "
+            <p style='color:white'>
+            <table>
+              <tr>
+                <td>
+                  <img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/airplanemode_inactive/default/48px.svg'>
+               </td>
+                <td>
+                <strong>Le fret aérien représente 57 % de nos émissions liées au transport</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li><strong>Avion remplacé par du fret routier</strong> pour tous les acheminements depuis nos usines européennes jusqu'à notre plateforme logistique de Roosendaal (Pays-Bas)</li>
+                      <li><strong>Avion remplacé par des fourgons utilitaires</strong> pour la livraison de nos distributeurs et de nos entrepôts, en Europe</li>
+                <br>... et ce, sans incidence en termes de délais ou de coûts pour nos clients
+                    </ul>
+                <br>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/ev_station/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Le Groupe propose à ses collaborat.eu.r.ice.s plusieurs dispositifs incitant à une mobilité plus douce</strong> : verdissement des flottes automobiles, bornes de recharge pour véhicules électriques et hangars à vélo sur site, service de navettes collectives…
+                <br>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/new_releases/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Le Groupe nourrit un objectif de certification ISO 14001 pour tous ses sites d'exploitation dans le monde</strong>, d'ici à fin 2028 (production et logistiques)
+                 </td>
+                  <td></td>
+              </tr>
+            </table>
+            </p>
+            "
+
+      - title: "Efficacité énergétique et réduction de notre dépendance aux énergies carbonées"
+        color: "#669999"
+        content: "
+            <p style='color:white'>
+            <table>
+              <tr>
+                <td>
+                  <img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/solar_power/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Nous intensifions nos efforts pour optimiser notre consommation d'énergie et transformer nos procédés de fabrication</strong>, évoluer vers des équipements sobres en énergie, tout en augmentant nos approvisionnements et notre capacité d’autoproduction d’<strong>énergie renouvelable</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Par exemple : parc de panneaux solaires à Bawal, en Inde</li>
+                    </ul>
+                <br>
+                </td>
+              </tr>
+              <tr>
+              <td></td>
+              <td>
+               En 2022, à l’échelle de toutes nos unités de production, <strong>l'intensité énergétique moyenne</strong> - exprimée en kwh pour 1 000 unités produites - <strong>a baissé de plus de 20 %</strong>
+              </td>
+              </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Approvisionnements responsables, gestion éclairée des ressources et économie circulaire"
+        color: "#669999"
+        content: "
+            <p style='color:white'>
+            <table>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/water_drop/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Nous nous astreignons à toujours plus de sobriété, en ce qui concerne la ressource Eau</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Sur la période 2019-2022, le <strong>ratio moyen</strong> d’eau nécessaire à la fabrication de 1 000 unités est <strong>passé de 6 % à 5,6 %</strong></li>
+                      <li>Le site de Bawal (Inde) collecte les eaux de pluie et dispose de <strong>sa propre station de traitement</strong> (in-situ) : cela lui permet de donner une seconde vie à ses eaux usées et aux eaux de pluie, pour l'irrigation du site et ses aménagements paysagers</li>
+                    </ul>
+                <br>
+                </td>
+              </tr>
+              <br>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/recycling/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Sur ses sites d'exploitation, Hollister s’efforce de faire du réutilisable la règle et de l'usage unique l'exception</strong>
+                <br>
+                Pour ce faire :
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>nous avons remplacé les sur-chaussures en fibres plastique par des bottillons antistatiques réutilisables</li>
+                      <li>nous utilisons des chiffons non pelucheux réutilisables pour le nettoyage des équipements industriels</li>
+                      <li>des sacs en polyéthylène réutilisables sont visibles sur nos lignes de production</li>
+                    </ul>
+                <br>
+                </td>
+              </tr>
+              <br>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/delete_forever/default/48px.svg'>
+                </td>
+                <td>
+                La mise en décharge des déchets augmente la production de gaz à effet de serre (GES) à très fort pouvoir de réchauffement, comme le méthane.
+                <br>
+                <strong>En 2022, nous avons détourné de la mise en décharge 74 % des déchets liés aux produits Hollister :</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Au global, 23 % ont été <strong>recyclés</strong> (i.e. « valorisation matière »)</li>
+                      <li>Au global, 51 % ont été <strong>incinérés avec récupération d’énergie</strong> (i.e. « valorisation énergétique »)</li>
+                    </ul>
+                <br>
+                </td>
+              </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Éco-conception de nos produits et emballages"
+        color: "#669999"
+        content: "
+            <p style='color:white'>
+            <table>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/all_inclusive/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Le développement R&D de nos principales gammes de produits intègre une analyse de cycle de vie</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Sonde Infyna ChicTM : sans PVC, allégée en matières plastique (- 11 % vs version précédente du produit), étui en mono matériau (i.e. recyclable)</li>
+                      <li>Sonde OnliTM pour sondage intermittent :  sans PVC ni phtalates, allégée en matières plastique et plus ergonomique (i.e. user-friendly)</li>
+                    </ul>
+                <br>
+                </td>
+              </tr>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/package_2/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Nous procédons régulièrement à certains arbitrages concernant nos emballages :</strong>
+                <br>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                  <li>suppression des encres à base de solvant</li>
+                  <li>recours à des emballages en carton vierge (i.e. non blanchis, chimiquement) et labellisés FSC (Forest Stewardship Council)</li>
+                  <li>colisage optimisé, etc</li>
+                  </ul>
+                <br>
+                </td>
+              </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Préservation et restauration de la biodiversité"
+        color: "#669999"
+        content: "
+            <p style='text-align:left'>
+            <table>
+             <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/emoji_nature/default/48px.svg'>
+                </td>
+                <td>
+                Face aux menaces induites par le dérèglement climatique, <strong>il est de notre responsabilité de faire notre part pour protéger le vivant et la nature, et contribuer à leur régénération</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Réintroduction d’<strong>essences endémiques</strong> (i.e. arbres et/ou plantes spécifiques à une zone géographique donnée)</li>
+                      <li><strong>Réensauvagement</strong> de certains de nos espaces verts</li>
+                      <li><strong>Réintroduction</strong> d’espèces animales protégées</li>
+                      <li>Mobilisation de nos collaborat.eu.r.ice.s pour qu’iels construisent des <strong>habitats protégés</strong> pour certains animaux, etc</li>
+                    </ul>
+                <br>
+                </td>
+             </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Promotion de la diversité et de l'inclusion, et lutte contre toute forme de discrimination"
+        color: "#006699"
+        content: "
+            <p style='text-align:left'>
+            <table>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/transgender/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Toute l’année, Hollister célèbre la diversité</strong> : mois des fiertés, journée internationale de la femme, mois pour l'emploi des personnes en situation de handicap…
+                </td>
+                <br>
+              </tr>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/balance/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Le Groupe a élaboré une stratégie diversité et inclusion, et constitué un Comité dédié</strong> pilotant l’ensemble de ces sujets
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Depuis 2021, nous menons une revue trimestrielle du tableau de bord D&I monde
+                      <br>
+                      extrait : <strong>index égalité femme-homme relativement stable</strong> dans le temps (47 % de femmes dans le Groupe pour 53 % d’hommes, en 2022)
+                      <br>
+                      extrait : <strong>36,5 % de femmes occupent un poste de management ou de direction</strong> en 2022 (VS 35 % en 2020)</li>
+                      <li>Depuis 2022, un module <strong>e-learning dédié</strong> à la diversité et à l’inclusion est venu enrichir notre parcours d'intégration</li>
+                    </ul>
+                <br>
+                </td>
+              </tr>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/female/default/48px.svg'>
+                </td>
+                <td>
+                <strong>De façon volontaire, Hollister a créé en 2021 son tout 1er réseau international de collaborat.eu.r.ice.s</strong> : le Women's Initiative Network  (WIN) qui organise - entre autres - l’intervention de conférencie.r.e.s inspirant.e.s, des ateliers thématiques, des sessions de réseautage ou encore des clubs de lecture
+                </td>
+              </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Conduite éthique des affaires et transparence"
+        color: "#006699"
+        content: "
+        <p style='text-align:left'>
+           <table>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/security_update_warning/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Le Groupe s’engage à mettre en œuvre un dispositif de vigilance à l'échelle de l’ensemble de sa chaîne de valeur</strong>
+                </td>
+              </tr>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/auto_stories/default/48px.svg'></td>
+                <td><strong>Plusieurs Codes de conduite couvrent la bonne application du cadre déontologique de Hollister Inc.</strong> : vis-à-vis des collaborat.eu.r.ice.s, des distributeurs, des fournisseurs et sous-traitants
+                  <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Un <strong>dispositif d’alerte</strong> permet de recueillir tout signalement de nature RH, sociale, éthique ou toute non-conformité aux règles édictées dans l’un de nos Codes de conduite</li>
+                      <li>Nous avons développé des <strong>parcours de formation spécifiques</strong> pour les métiers les plus exposés aux différents risques éthiques (corruption, pratiques non-éthiques d’un partenaire, pratiques déloyales…)</li>
+                    </ul>
+                  <br>
+                </td>
+              </tr>
+            </table>
+        </p>
+        "
+
+
+  - title: "Dignité de la personne"
+    texttransform: "uppercase"
+    icon: "volunteer_activism"
+    content:
+      - title: "Promotion de la diversité et de l'inclusion, et lutte contre toute forme de discrimination"
+        color: "#006699"
+        content: "
+            <p style='text-align:left'>
+            <table>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/recycling/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Toute l’année, Hollister célèbre la diversité</strong> : mois des fiertés, journée internationale de la femme, mois pour l'emploi des personnes en situation de handicap…
+                </td>
+                <br>
+              </tr>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/recycling/default/48px.svg'>
+                </td>
+                <td>
+                <strong>Le Groupe a élaboré une stratégie diversité et inclusion, et constitué un Comité dédié</strong> pilotant l’ensemble de ces sujets
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Depuis 2021, nous menons une revue trimestrielle du tableau de bord D&I monde
+                      <br>
+                      extrait : <strong>index égalité femme-homme relativement stable</strong> dans le temps (47 % de femmes dans le Groupe pour 53 % d’hommes, en 2022)
+                      <br>
+                      extrait : <strong>36,5 % de femmes occupent un poste de management ou de direction</strong> en 2022 (VS 35 % en 2020)</li>
+                      <li>Depuis 2022, un module <strong>e-learning dédié</strong> à la diversité et à l’inclusion est venu enrichir notre parcours d'intégration</li>
+                    </ul>
+                <br>
+                </td>
+              </tr>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/female/default/48px.svg'>
+                </td>
+                <td>
+                <strong>De façon volontaire, Hollister a créé en 2021 son tout 1er réseau international de collaborat.eu.r.ice.s</strong> : le Women's Initiative Network  (WIN) qui organise - entre autres - l’intervention de conférencie.r.e.s inspirant.e.s, des ateliers thématiques, des sessions de réseautage ou encore des clubs de lecture
+                </td>
+              </tr>
+            </table>
+            </p>
+        "
+
+      - title: "Pour un environnement de travail sans danger, préservant la santé et la sécurité de chacun.e"
+        color: "#006699"
+        content: "
+          <p style='text-align:left'>
+          <table>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/personal_injury/default/48px.svg'></td>
+                <td><strong>Le Groupe a su instaurer une véritable culture de la santé-sécurité au travail (SST), structurant les pratiques quotidiennes de chacun.e</strong>
+                  <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li><strong>Gouvernance dédiée</strong> : Comité Sécurité monde, Comités locaux pour la sécurité déclinés en Unités de sécurité, réunions hebdomadaires et audits SST mensuels</li>
+                      <li>Sensibilisation et formation continue des collaborateur.ice.s : par exemple, notre programme de protection des mains <strong>a réduit de moitié les blessures aux mains</strong> (données 2022 vs 2021)</li>
+                      <li>Outils et méthodes clés : par exemple, la <strong>solution logicielle de signalement</strong> déployée en 2022 permet de <strong>piloter en temps réel et au long cours nos presque accidents</strong>, au sein du Groupe</li>
+                    </ul>
+                  <br>
+                </td>
+              </tr>
+              <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/health_and_safety/default/48px.svg'></td>
+                <td>En 2002, Hollister a enregistré un <strong>taux global d’accident du travail (AT)</strong> : 0,81
+                   <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>Soit une <strong>baisse de près de 20 %</strong> par rapport à 2021</li>
+                    </ul>
+                   <br>
+                </td>
+              </tr>
+          <br>
+              <tr>
+                  <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/engineering/default/48px.svg'></td>
+                  <td><strong>À travers son dispositif mondial de vigilance, Hollister Inc. analyse les activités de ses fournisseurs et sous-traitants vis-à-vis de leurs propres collaborat.eu.r.ice.s</strong>, notamment en matière de respect des droits fondamentaux - parmi lesquels figure le droit à la santé</td>
+              </tr>
+          </table>
+          </p>
+        "
+
+      - title: "Rendre accessible au plus grand nombre des produits fiables, simples d'utilisation et de manipulation, tout en préservant l'épiderme"
+        color: "#993366"
+        content: "
+        <p style='text-align:left;font-weight:semi-bold;'>
+        <u>Notre mission </u>:
+        <br>
+        <span style='opacity:0.5;'>Rendre plus digne et gratifiante la vie des personnes qui utilisent nos produits et services</span>
+        </p>
+        Nous offrons la meilleure qualité de soin possible au patient :
+        <table>
+            <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/admin_panel_settings/default/48px.svg'></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                    <li>des produits <strong>fiables</strong> (garantie d’étanchéité)</li>
+                    <li>des produits <strong>simples</strong> d’utilisation et de manipulation</li>
+                    <li>des produits <strong>protégeant l’épiderme</strong> du patient</li>
+                  </ul>
+                <br>
+                </td>
+            </tr>
+            <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/thumb_up/default/48px.svg'></td>
+                <td>
+                <strong>Nous souhaitons faciliter l’autonomisation du patient, à chaque étape de son parcours de soins</strong>
+                </td>
+            </tr>
+            <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/task_alt/default/48px.svg'></td>
+                <td>
+                  <strong>En 2022, la gamme CeraPlus de Hollister a reçu l'accréditation de l’organisme national expert en matière de Dermatologie</strong>, pour sa commercialisation sur les marchés britanniques et irlandais (Skin Health Alliance)
+                </td>
+            </tr>
+        </table>
+        </p>
+        "
+
+      - title: "Mieux comprendre le vécu du patient, ses préoccupations et les conditions d'une qualité de vie optimale pour ses proches aidants et lui"
+        color: "#993366"
+        content: "
+        <p style='text-align:left'>
+        <table>
+            <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/biotech/default/48px.svg'></td>
+                <td><strong>Le Groupe soutient la recherche clinique et l’innovation</strong></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <ul style='text-align:left;margin-left:-25px;'>
+                  <li>En étant membre actif de <strong>groupes de travail internationaux</strong>, regroupant des professionnels de santé, experts des soins de stomie et de la continence</li>
+                  <li>En soutenant régulièrement des <strong>études cliniques</strong> de portée mondiale</li>
+                  <li>En animant des <strong>comités scientifiques consultatifs</strong> chargés de l’évaluation clinique de dispositifs de stomie et de la continence</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/heart_plus/default/48px.svg'></td>
+                <td><strong>Au fil du temps, Hollister a développé différents services à l’attention du patient et des aidants qui l’accompagnent</strong></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <ul style='text-align:left;margin-left:-25px;'>
+                  <li>Vivre+ : <strong>service de mise en relation</strong>, au sein d’une communauté de patients, <strong>et d’autonomisation</strong> à chaque étape de la vie</li>
+                  <li>Secure start (UK et USA) : outils d’<strong>assistance personnalisée</strong>, adaptés à chaque situation ; mise à disposition de <strong>ressources pédagogiques</strong> et de contenus en ligne…</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                    <li><strong>L’ensemble des équipes de vente Hollister, dans le monde, est formé à l’utilisation de nos produits</strong> : chacun.e est en mesure d’expliciter les étapes et les conditions optimales de pose, d'ajustement ou de retrait d’un de nos dispositifs médicaux</li>
+                  </ul>
+                </td>
+            </tr>
+        </table>
+        </p>
+        "
+
+
+  - title: "Service"
+    texttransform: "uppercase"
+    icon: "health_and_safety"
+    content:
+      - title: "Rendre accessible au plus grand nombre des produits fiables, simples d'utilisation et de manipulation, tout en préservant l'épiderme"
+        color: "#993366"
+        content: "
+        <p style='text-align:left;font-weight:semi-bold;'>
+        <u>Notre mission </u>:
+        <br>
+        <span style='opacity:0.5;'>Rendre plus digne et gratifiante la vie des personnes qui utilisent nos produits et services</span>
+        </p>
+        Nous offrons la meilleure qualité de soin possible au patient :
+        <table>
+            <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/admin_panel_settings/default/48px.svg'></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                    <li>des produits <strong>fiables</strong> (garantie d’étanchéité)</li>
+                    <li>des produits <strong>simples</strong> d’utilisation et de manipulation</li>
+                    <li>des produits <strong>protégeant l’épiderme</strong> du patient</li>
+                  </ul>
+                <br>
+                </td>
+            </tr>
+            <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/thumb_up/default/48px.svg'></td>
+                <td>
+                <strong>Nous souhaitons faciliter l’autonomisation du patient, à chaque étape de son parcours de soins</strong>
+                </td>
+            </tr>
+            <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/task_alt/default/48px.svg'></td>
+                <td>
+                  <strong>En 2022, la gamme CeraPlus de Hollister a reçu l'accréditation de l’organisme national expert en matière de Dermatologie</strong>, pour sa commercialisation sur les marchés britanniques et irlandais (Skin Health Alliance)
+                </td>
+            </tr>
+        </table>
+        </p>
+        "
+
+      - title: "Mieux comprendre le vécu du patient, ses préoccupations et les conditions d'une qualité de vie optimale pour ses proches aidants et lui"
+        color: "#993366"
+        content: "
+        <p style='text-align:left'>
+        <table>
+            <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/biotech/default/48px.svg'></td>
+                <td><strong>Le Groupe soutient la recherche clinique et l’innovation</strong></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <ul style='text-align:left;margin-left:-25px;'>
+                  <li>En étant membre actif de <strong>groupes de travail internationaux</strong>, regroupant des professionnels de santé, experts des soins de stomie et de la continence</li>
+                  <li>En soutenant régulièrement des <strong>études cliniques</strong> de portée mondiale</li>
+                  <li>En animant des <strong>comités scientifiques consultatifs</strong> chargés de l’évaluation clinique de dispositifs de stomie et de la continence</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+                <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/heart_plus/default/48px.svg'></td>
+                <td><strong>Au fil du temps, Hollister a développé différents services à l’attention du patient et des aidants qui l’accompagnent</strong></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <ul style='text-align:left;margin-left:-25px;'>
+                  <li>Vivre+ : <strong>service de mise en relation</strong>, au sein d’une communauté de patients, <strong>et d’autonomisation</strong> à chaque étape de la vie</li>
+                  <li>Secure start (UK et USA) : outils d’<strong>assistance personnalisée</strong>, adaptés à chaque situation ; mise à disposition de <strong>ressources pédagogiques</strong> et de contenus en ligne…</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                  <ul style='text-align:left;margin-left:-25px;'>
+                    <li><strong>L’ensemble des équipes de vente Hollister, dans le monde, est formé à l’utilisation de nos produits</strong> : chacun.e est en mesure d’expliciter les étapes et les conditions optimales de pose, d'ajustement ou de retrait d’un de nos dispositifs médicaux</li>
+                  </ul>
+                </td>
+            </tr>
+        </table>
+        </p>
+        "
+
+      - title: "Solidarité et soutien à l'éducation, à la santé, aux réfugiés, au sport ou à la culture"
+        color: "#993366"
+        content: "
+            <p style='text-align:left'>
+            <table>
+                <tr>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/accessible_forward/default/48px.svg'></td>
+                    <td>
+                    <strong>JDS, The firm of John Dickinson Schneider Inc., soutient un certain nombre d’organisations à but non lucratif</strong>
+                <br>
+                    <ul style='text-align:left;margin-left:-25px;'>
+                      <li>En 2022, le Group a distribué <strong>plus de 1,2 million de dollars US</strong> dans le monde</li>
+                      <li>Parmi les bénéficiaires, on recense plusieurs associations d’<strong>athlétisme handisport</strong> nord-américaines, des programmes universitaires liés au handisport, la Fondation de Crohn and Colitis, ainsi que le Salon grand public « Abilities Expo » (USA)</li>
+                    </ul>
+                <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class='img_icon' src='https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/volunteer_activism/default/48px.svg'>
+                    </td>
+                    <td><strong>Chaque année, les collaborat.eu.r.ice.s des entités Hollister à l’international se mobilisent pour soutenir une cause qui leur est chère</strong> : collectes de fonds, participation bénévole à des courses et/ou challenges sportifs, ramassage de déchets ou plantation d‘arbres, etc</td>
+                </tr>
+            </table>
+            </p>
+        "
+
+#  - title: "Nos défis pour le futur"
+#    top: "34px"
+#    icon: "slideshow"
+#    content:
+#      - title: "<span style='color:#669999'>Nos défis pour un futur viable</span>"
+#        icon: "add_photo_alternate"
+#        content: "
+#            <ul style='text-align:left'>
+#            <li>Nous souhaitons réduire nos émissions de gaz à effet de serre et notre dépendance aux énergies carbonées, en incluant le scope 3.</li>
+#            <li>Nous souhaitons limiter nos impacts environnementaux en optimisant l'intensité carbone et énergétique de nos activités, en encourageant les alternatives aux véhicules thermiques et aux systèmes d'éclairage/chauffage/refroidissement traditionnels.</li>
+#            <li>Nous souhaitons nous réinventer pour être un acteur du changement et améliorer l'expérience patient, tout en relevant le défi technologique de la réduction de nos empreintes CO2, hydrique et sur le vivant.</li>
+#            </ul>
+#            "
+
+#      - title: "<span style='color:#993366'>Nos défis pour un futur durable</span>"
+#        icon: "diversity_1"
+#        content: "
+#            <ul style='text-align:left'>
+#            <li>Être une entreprise contributive, cela ne se décrète pas. Cela s’incarne. C’est pourquoi nous déployons une énergie incroyable pour soutenir l’innovation et améliorer toujours plus la qualité de vie des patients.</li>
+#            <li>Cela nécessite également de maintenir des liens forts avec ses communautés, tout en en développant de nouveaux - avec des structures plus jeunes, plus petites ou en adaptant les dispositifs proposés aux collaborateurs.</li>
+#            </ul>
+#            "
+
+#      - title: "<span style='color:#006699'>Nos défis pour un futur désirable</span>"
+#        icon: "diversity_2"
+#        content: "
+#            <ul style='text-align:left'>
+#            <li>En accord avec notre éthique, nous nous engageons à poursuivre nos efforts pour préserver notre capital humain.</li>
+#            <li>Tout en développant, chaque année davantage, au sein du Groupe, la représentativité et l’évolution professionnelle des femmes, des plus jeunes, des personnes en situation de handicap ou éloignées de l’emploi, ainsi que de tout représentant d’une minorité.</li>
+#            </ul>
+#            "
+
+  - title: "Retrouver les certifications et distinctions des entités du Groupe Hollister"
+    top: "34px"
+    icon: "new_releases"
+    content: "
+        <a href='./assets/HOLLISTERFRANCECertif2023.pdf' target='reader'>
+       <img src='./assets/icon_pdf.png' style='width:30px'>
+        </a>
+        "
+
+  - title: "Consulter le lexique RSE"
+    icon: "help"
+    content: "
+        <a href='./assets/HOLLISTER_FRANCE_Lexique_2024.pdf' target='reader'>
+        <img src='./assets/icon_pdf.png' style='width:30px'>
+        </a>
+        "
+
+  - title: "Retrouver la dernière version du Rapport développement durable de Hollister Inc.(full reporting, en anglais)"
+    icon: "menu_book"
+    content: "
+        <a href='./assets/HOLLISTER_CORPORATE_ESGReport2022.pdf' target='reader'>
+          <img src='./assets/icon_pdf.png' style='width:30px'>
+        </a>
+        "
+
+clouds:
+  One page récapitulative: "ceci est un texte de remplissage"
